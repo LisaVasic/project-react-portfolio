@@ -3,7 +3,6 @@ import styled from 'styled-components';
 import heroImage from '../assets/header_image.jpg';
 import heroLinkedin from '../assets/linkedin_icon.png';
 import heroGithub from '../assets/github_icon.png';
-import heroStackOverflow from '../assets/stackoverflow_icon.png';
 import profileImage from '../assets/profile_image.jpeg';
 
 export const Header = () => {
@@ -15,11 +14,6 @@ export const Header = () => {
         </a>
         <a href="https://github.com/LisaVasic" target="_blank" rel="noreferrer">
           <img src={heroGithub} alt="Github icon for the header" />
-        </a>
-        <a href="https://stackoverflow.com/users/19567899/lisa" target="_blank" rel="noreferrer">
-          <img
-            src={heroStackOverflow}
-            alt="Stack Overflow icon for the header" />
         </a>
       </HeaderIcons>
       <HeaderTitle>

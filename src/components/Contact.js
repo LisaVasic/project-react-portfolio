@@ -7,7 +7,7 @@ export const Contact = () => {
       <ContactInnerWrapper>
         <h5>CONTACT</h5>
         <p>Lisa Johansson</p>
-        <p>lisajoh@icloud.com</p>
+        <p><a href="mailto:lisajoh@icloud.com">lisajoh@icloud.com</a></p>
       </ContactInnerWrapper>
     </ContactOuterWrapper>
   )

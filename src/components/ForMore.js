@@ -3,7 +3,6 @@ import React from 'react';
 import styled from 'styled-components';
 import heroLinkedin from '../assets/linkedin_icon.png';
 import heroGithub from '../assets/github_icon.png';
-import heroStackOverflow from '../assets/stackoverflow_icon.png';
 
 export const ForMore = () => {
   return (
@@ -25,14 +24,6 @@ export const ForMore = () => {
                 <img src={heroGithub} lang="eng" alt="Github icon" />
               </imgContainer>
               <p>GITHUB</p>
-            </a>
-          </SingleIconContainer>
-          <SingleIconContainer>
-            <a href="https://stackoverflow.com/users/19567899/lisa" target="_blank" rel="noreferrer">
-              <imgContainer>
-                <img src={heroStackOverflow} lang="eng" alt="Stackoverflow icon" />
-              </imgContainer>
-              <p>STACK OVERFLOW</p>
             </a>
           </SingleIconContainer>
         </ForMoreIconsContainer>
