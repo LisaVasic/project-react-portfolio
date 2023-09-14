@@ -32,6 +32,7 @@ export const IntroInnerWrapper = styled.div`
   display: flex;
   align-items: center;
   line-height: 25px;
+ 
 
   @media (min-width: 668px) {
     font-size: 18px;

@@ -42,7 +42,6 @@ export const HeaderContainer = styled.header`
   background-position: 20%;
   background-size: cover;
   position: relative;
-  font-family: Montserrat;
 `;
 
 export const HeaderIcons = styled.div`
