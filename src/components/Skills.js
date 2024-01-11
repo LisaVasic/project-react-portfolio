@@ -46,11 +46,6 @@ export const SkillsOuterWrapper = styled.div`
     align-content: center;
     align-items: center;
 
-    h5 {
-     font-family: Montserrat;
-    }
-  
-
 `;
 
 export const SkillsInnerWrapper = styled.div`  

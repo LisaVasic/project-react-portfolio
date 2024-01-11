@@ -1,0 +1,27 @@
+[
+    {
+      "title": "Weather App",
+      "project-description": "Project to display the weather in a chosen city with info from an API",
+      "repo-name": "project-weather-app",
+      "netlify-name": "https://curious-sorbet-7344d4.netlify.app",
+      "tags": ["HTML", "CSS", "JavaScript", "Pair-programming"]
+    },
+
+    {
+      "title": "Music Releases",
+      "project-description": "Displays a list of new music fetched from an API.",
+      "repo-name": "project-music-releases",
+      "netlify-name": "https://project-music-release-nina-lisa.netlify.app",
+      "tags": ["API", "HTML", "CSS", "JavaScript", "Pair-programming"]
+    },
+
+    {
+      "title": "Breakfast Survey",
+      "project-description": "A survey that ask questions and summaries your favourite breakfast.",
+      "repo-name": "project-survey",
+      "netlify-name": "https://chic-platypus-494309.netlify.app",
+      "tags": ["React", "HTML", "CSS", "JavaScript"]
+    }
+
+]
+  

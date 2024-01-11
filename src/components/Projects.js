@@ -2,6 +2,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import FeaturedProject from '../FeaturedProject.json';
+import heroGithub from '../assets/github_icon.png';
 
 export const Projects = () => {
   const GITHUB_NAME = 'LisaVasic';
@@ -15,7 +16,7 @@ export const Projects = () => {
             return (
               <ProjectCard
                 key={project.title}
-                href={`https://github.com/${GITHUB_NAME}/${project['repo-name']}`}
+                href={project['netlify-name']}
                 target="_blank">
                 <ThumbnailWrapper url={project.image}>
                   <ThumbnailTitle>{project.title.toUpperCase()}</ThumbnailTitle>
@@ -24,13 +25,18 @@ export const Projects = () => {
                   {project['title-description'].toUpperCase()}
                 </ProjectInfoHeader>
                 <ProjectInfo>{project['project-description']}</ProjectInfo>
-                <ul style={{ padding: 0 }}>
+                <TagContainer style={{ padding: 0 }}>
                   {project.tags.map((tag) => (
                     <ProjectTags>
                       {tag}
                     </ProjectTags>
                   ))}
-                </ul>
+                </TagContainer>
+                <SingleIconContainer>
+                  <a href={`https://github.com/${GITHUB_NAME}/${project['repo-name']}`}>
+                    <img src={heroGithub} lang="eng" alt="Github icon" />
+                  </a>
+                </SingleIconContainer>
               </ProjectCard>
             );
           })}
@@ -146,6 +152,10 @@ const ProjectInfo = styled.p`
    }
 `;
 
+const TagContainer = styled.div`
+  margin-top: 8px;
+`
+
 const ProjectTags = styled.li`
   font-family: "Roboto", sans-serif;
   color: #ffff;
@@ -163,3 +173,24 @@ const ProjectTags = styled.li`
     font-size: 16px;
   }
 `;
+
+const SingleIconContainer = styled.a`
+  height: 20px;
+  width: 20px;
+  padding: 10px;
+  border: solid var(--nude);
+  border-radius: 50%;
+  display: flex;
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+  padding-bottom: 3px;
+}
+
+:hover {
+  border: solid var(--white);
+}
+`
+
+// href={`https://github.com/${GITHUB_NAME}/${project['repo-name']}`}

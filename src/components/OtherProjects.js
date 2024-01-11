@@ -1,25 +1,35 @@
 import React from 'react';
 import styled from 'styled-components';
+import FeaturedOtherProjects from '../FeaturedOtherProjects.json';
 
 export const OtherProjects = () => {
+  // const GITHUB_NAME = 'LisaVasic';
+
   return (
     <OtherProjectOuterWrapper>
       <OtherProjectInnerWrapper>
         <h6 className="otherProjects">OTHER PROJECTS</h6>
-        <a href="INSERT-LINK-TO-PROJECTS-NETLIFY">
-          <InfoContainer>
-            <SubTitle>Weather App</SubTitle>
-            <SubParagraph>
-              Project to display the weather in a chosen city with info from an
-              API
-            </SubParagraph>
-          </InfoContainer>
-        </a>
-        <SkillTagContainer>
-          <SkillTag>HTML</SkillTag>
-          <SkillTag>CSS</SkillTag>
-          <SkillTag>JavaScript</SkillTag>
-        </SkillTagContainer>
+        <InfoContainer>
+          {FeaturedOtherProjects.map((project) => {
+            return (
+              <>
+                <SubTitle
+                  key={project.title}
+                  href={project['netlify-name']}
+                  target="_blank">
+                  {project.title.toUpperCase()}
+                </SubTitle>
+                <SubParagraph>{project['project-description']}</SubParagraph>
+                <SkillTagContainer>
+                  {project.tags.map((tag) => (
+                    <SkillTag>{tag}</SkillTag>
+                  ))}
+                </SkillTagContainer>
+
+              </>
+            )
+          })}
+        </InfoContainer>
       </OtherProjectInnerWrapper>
     </OtherProjectOuterWrapper>
   );
@@ -27,7 +37,7 @@ export const OtherProjects = () => {
 
 export const OtherProjectOuterWrapper = styled.div`
   background-color: var(--nude);
-  height: 50vh;
+  height: 70vh;
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -36,6 +46,7 @@ export const OtherProjectOuterWrapper = styled.div`
 
 export const OtherProjectInnerWrapper = styled.div`
   margin: 0 auto;
+  margin-top: 5rem;
   width: 80vw;
   max-width: 900px;
   height: 250px;
@@ -59,12 +70,12 @@ export const OtherProjectInnerWrapper = styled.div`
 export const InfoContainer = styled.div`
   display: flex;
   flex-direction: column;
-  margin:0; 
 `;
 
 export const SkillTagContainer = styled.div`
   display: flex;
   justify-content: flex-start;
+  margin-bottom: 2rem;
 `;
 
 export const SkillTag = styled.p`
@@ -80,14 +91,16 @@ margin-right: 10px;
 padding: 3px 5px;
 `;
 
-export const SubTitle = styled.h4`
+export const SubTitle = styled.a`
   color: var(--blue);
-  text-decoration: underline;
-  margin-right: 1%;
+  text-decoration: none;
   font-size: 18px;
   font-weight: bold;
-  margin-block-end: 1em;
-  margin-block-start: 1em;
+
+
+  :hover {
+    text-decoration: underline;
+  }
 `;
 
 export const SubParagraph = styled.p`

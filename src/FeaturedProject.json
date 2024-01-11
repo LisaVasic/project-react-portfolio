@@ -4,7 +4,7 @@
       "title-description": "Movie site that lists recent movie releases",
       "project-description": "A multi-page React application using React Router.",
       "repo-name": "project-movies",
-      "netlify-name": "",
+      "netlify-name": "https://movies-lisa-sofia.netlify.app/",
       "tags": ["React", "JSX", "API", "Pair-programming"],
       "image": "../Thumbnails/movie_site_thumbnail.jpg"
     },

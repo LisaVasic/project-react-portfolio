@@ -3,7 +3,7 @@ import { Header } from './components/Header'
 import { Intro } from './components/Intro'
 import { Tech } from './components/Tech'
 import { Projects } from './components/Projects'
-import { Thoughts } from './components/Thoughts'
+// import { Thoughts } from './components/Thoughts'
 import { OtherProjects } from './components/OtherProjects'
 import { Skills } from './components/Skills'
 import { ForMore } from './components/ForMore'
@@ -17,7 +17,7 @@ export const App = () => {
       <Tech />
       <Projects />
       <OtherProjects />
-      <Thoughts />
+      {/* <Thoughts /> */}
       <Skills />
       <ForMore />
       <Contact />

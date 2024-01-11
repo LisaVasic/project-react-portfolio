@@ -45,7 +45,7 @@ export const HeaderIcons = styled.div`
   width: 200px;
   height: 40px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   
   img{
     height: 25px;
