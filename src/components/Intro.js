@@ -20,7 +20,7 @@ export const Intro = () => {
 
 export const IntroOuterWrapper = styled.div`
   width: 100%;
-  height: 300px;
+  height: 30rem;
   display: flex;
   justify-content: center;
   align-content: center;
@@ -31,7 +31,7 @@ export const IntroOuterWrapper = styled.div`
 export const IntroInnerWrapper = styled.div`
   width: 80vw;
   max-width: 900px;
-  height: 200px;
+  height: 20rem;
   display: flex;
   align-items: center;
   line-height: 25px;
