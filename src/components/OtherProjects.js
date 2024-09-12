@@ -37,19 +37,22 @@ export const OtherProjects = () => {
 
 export const OtherProjectOuterWrapper = styled.div`
   background-color: var(--nude);
-  height: 70vh;
+  height: auto;
   display: flex;
   flex-direction: column;
   width: 100%;
   margin: 0 auto;
+
+  @media (min-width: 668px) {
+    height: auto;
+  }
 `;
 
 export const OtherProjectInnerWrapper = styled.div`
   margin: 0 auto;
-  margin-top: 5rem;
-  width: 80vw;
+  width: 80%;
   max-width: 900px;
-  height: 250px;
+  height: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -70,6 +73,7 @@ export const OtherProjectInnerWrapper = styled.div`
 export const InfoContainer = styled.div`
   display: flex;
   flex-direction: column;
+  width: 90%;
 `;
 
 export const SkillTagContainer = styled.div`
@@ -84,7 +88,7 @@ color: #ffff;
 border-radius: 3px;
 background-color: #293a4f;
 display: inline;
-font-size: 14px;
+font-size: 12px;
 font-weight: 700;
 letter-spacing: 1px;
 margin-right: 10px;
@@ -106,9 +110,13 @@ export const SubTitle = styled.a`
 export const SubParagraph = styled.p`
   color: black;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 14px;
   margin-block-end: 1em;
   margin-block-start: 1em;
   texta-align: left;
+
+  @media (min-width: 668px) {
+    font-size: 16px
+   }
 
 `;

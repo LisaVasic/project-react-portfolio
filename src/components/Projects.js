@@ -2,10 +2,10 @@
 import React from 'react';
 import styled from 'styled-components';
 import FeaturedProject from '../FeaturedProject.json';
-import heroGithub from '../assets/github_icon.png';
+// import heroGithub from '../assets/github_icon.png';
 
 export const Projects = () => {
-  const GITHUB_NAME = 'LisaVasic';
+  // const GITHUB_NAME = 'LisaVasic';
 
   return (
     <ProjectOuterWrapper>
@@ -18,9 +18,8 @@ export const Projects = () => {
                 key={project.title}
                 href={project['netlify-name']}
                 target="_blank">
-                <ThumbnailWrapper url={project.image}>
-                  <ThumbnailTitle>{project.title.toUpperCase()}</ThumbnailTitle>
-                </ThumbnailWrapper>
+                <ThumbnailWrapper url={project.image} />
+                {/* <ThumbnailTitle>{project.title.toUpperCase()}</ThumbnailTitle> */}
                 <ProjectInfoHeader>
                   {project['title-description'].toUpperCase()}
                 </ProjectInfoHeader>
@@ -32,11 +31,11 @@ export const Projects = () => {
                     </ProjectTags>
                   ))}
                 </TagContainer>
-                <SingleIconContainer>
+                {/* <SingleIconContainer>
                   <a href={`https://github.com/${GITHUB_NAME}/${project['repo-name']}`}>
                     <img src={heroGithub} lang="eng" alt="Github icon" />
                   </a>
-                </SingleIconContainer>
+                  </SingleIconContainer> */}
               </ProjectCard>
             );
           })}
@@ -73,7 +72,8 @@ const FeaturedProjectWrapper = styled.div`
   display: grid;
   grid-template-columns: 1fr;
   gap: 40px;
-  margin-top: 30px;
+  margin-top: 10%;
+  margin-bottom: 10%;
 
   @media (min-width: 668px) {
     display: grid;
@@ -99,26 +99,24 @@ const ThumbnailWrapper = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-bottom: 20px;
+  margin-bottom: 5px;
   font-size: 26px;
   background-image: linear-gradient(180deg, #1c232580, #1c232580),
     url(${(props) => props.url});
-  &:hover {
-    background-image: linear-gradient(#1c23255e, #1c23255e),
-      url(${(props) => props.url});
+    &:hover {
+      background-image: url(${(props) => props.url});
   }
 `;
-
+/*
 const ThumbnailTitle = styled.h2`
   font-family: Montserrat, sans-serif;
   color: white;
-  position: absolute;
-  font-size: 22px;
+  font-size: 15px;
 `;
-
+*/
 const ProjectInfoHeader = styled.h3`
   font-family: "Roboto Bold", sans-serif;
-  font-size: 20px;
+  font-size: 16px;
   color: #293a4f;
   margin: 0;
 
@@ -134,22 +132,15 @@ const ProjectInfoHeader = styled.h3`
 const ProjectInfo = styled.p`
   font-family: Montserrat, sans-serif;
   color: #293a4f;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 1.4;
   margin: 0;
 
-  ${ProjectCard}:hover & {
-    text-decoration: underline;
-
-  }
 
   @media (min-width: 668px) {
-   font-size: 18px
+   font-size: 16px
   }
 
-  @media (min-width: 1024px) {
-    font-size: 20px
-   }
 `;
 
 const TagContainer = styled.div`
@@ -162,7 +153,7 @@ const ProjectTags = styled.li`
   border-radius: 3px;
   background-color: #293a4f;
   display: inline;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 700;
   letter-spacing: 1px;
   margin-right: 10px;
@@ -170,17 +161,18 @@ const ProjectTags = styled.li`
 
 
   @media (min-width: 668px) {
-    font-size: 16px;
+    font-size: 15px;
   }
 `;
 
-const SingleIconContainer = styled.a`
+/* const SingleIconContainer = styled.a`
   height: 20px;
   width: 20px;
   padding: 10px;
   border: solid var(--nude);
   border-radius: 50%;
   display: flex;
+  margin-top: 2%;
 
 img {
   max-width: 100%;
@@ -192,5 +184,6 @@ img {
   border: solid var(--white);
 }
 `
+*/
 
 // href={`https://github.com/${GITHUB_NAME}/${project['repo-name']}`}

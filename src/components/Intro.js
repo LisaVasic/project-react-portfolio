@@ -5,10 +5,13 @@ export const Intro = () => {
   return (
     <IntroOuterWrapper>
       <IntroInnerWrapper>
-        <p> Hi there, I am a junior frontend developer and a graphic designer.
-            I am passionate about working creatively and solving problems.
-            From my experience as a coordinator I am quite used to handle many tasks
-            at once and being on top of things.
+        <p> Hi there! I’m a junior frontend developer and graphic designer with a
+          strong passion for creative problem-solving. I’m enthusiastic
+          about expanding my skill set and am currently aspiring to become
+          a full-stack developer.My background in coordination has honed my
+          ability to manage multiple tasks simultaneously and stay organized under pressure.
+          I am eager to leverage my skills in both frontend development and design while
+          learning new technologies to contribute effectively to dynamic projects.
         </p>
       </IntroInnerWrapper>
     </IntroOuterWrapper>

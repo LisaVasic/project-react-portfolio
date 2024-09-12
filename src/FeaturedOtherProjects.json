@@ -1,10 +1,19 @@
 [
+
+  {
+    "title": "Weather App",
+    "project-description": "Project to display the weather in a chosen city with info from an API",
+    "repo-name": "project-weather-app",
+    "netlify-name": "https://curious-sorbet-7344d4.netlify.app",
+    "tags": ["HTML", "CSS", "JavaScript", "Pair-programming"]
+  },
+
     {
-      "title": "Weather App",
-      "project-description": "Project to display the weather in a chosen city with info from an API",
-      "repo-name": "project-weather-app",
-      "netlify-name": "https://curious-sorbet-7344d4.netlify.app",
-      "tags": ["HTML", "CSS", "JavaScript", "Pair-programming"]
+      "title": "Mongo API",
+      "project-description": "A backend project to develop an API with MongoDB for data storage",
+      "repo-name": "project-mongo-api",
+      "netlify-name": "https://github.com/LisaVasic/project-mongo-api",
+      "tags": ["Mongo DB", "Mongoose"]
     },
 
     {
@@ -21,7 +30,14 @@
       "repo-name": "project-survey",
       "netlify-name": "https://chic-platypus-494309.netlify.app",
       "tags": ["React", "HTML", "CSS", "JavaScript"]
-    }
+    },
 
+    {
+      "title": "Chatbot",
+      "project-description": "A JavaScript-based chat application for ordering books",
+      "repo-name": "project-chatbot",
+      "netlify-name": "https://phenomenal-kelpie-2b24fb.netlify.app",
+      "tags": ["JavaScript", "HTML", "CSS", "Pair-programming"]
+    }
 ]
   

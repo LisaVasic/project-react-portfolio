@@ -42,7 +42,7 @@ export const HeaderIcons = styled.div`
   position: absolute;
   right: 10%;
   top: 8%;
-  width: 200px;
+  width: 160px;
   height: 40px;
   display: flex;
   justify-content: space-around;
@@ -70,14 +70,14 @@ export const HeaderIcons = styled.div`
   }
 
 @media (min-width: 668px) and (max-width: 1023px){
-    width: 250px;
+    width: 160px;
     height: 70px;
 }
 
 @media (min-width: 1024px){
   right: 17%;
   top: 10%;
-  width: 300px;
+  width: 200px;
   height: 70px;
 
   a {

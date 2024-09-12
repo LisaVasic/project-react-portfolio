@@ -1,39 +1,42 @@
 [
     {
       "title": "movie site",
-      "title-description": "Movie site that lists recent movie releases",
-      "project-description": "A multi-page React application using React Router.",
+      "title-description": "Movie site",
+      "project-description": "A movie site showcasing recent releases, built as a multi-page React application using React Router for smooth navigation.",
       "repo-name": "project-movies",
       "netlify-name": "https://movies-lisa-sofia.netlify.app/",
       "tags": ["React", "JSX", "API", "Pair-programming"],
-      "image": "../Thumbnails/movie_site_thumbnail.jpg"
+      "image": "../Thumbnails/movie_site_thumbnail2.jpg"
     },
-    {
-      "title": "todo app",
-      "title-description": "App that keep track of your tasks",
-      "project-description": "An application built in React and Redux.",
-      "repo-name": "project-to-do-app",
-      "netlify-name": "https://lisa-to-do.netlify.app/",
-      "tags": ["React", "Redux", "Styled components"],
-      "image": "../Thumbnails/to_do_thumbnail.jpg"
-    },
+
     {
       "title": "Happy thoughts",
-      "title-description": "Website where you can post and like happy thoughts.",
-      "project-description": "Built in React fetching and posting data to an API.",
+      "title-description": "Happy thoughts",
+      "project-description": "A website for sharing and liking positive thoughts, built with React. It allows users to post and interact with content by fetching and posting data to an API.",
       "repo-name": "project-happy-Thoughts",
       "netlify-name": "https://lisa-happy-thoughts.netlify.app/",
       "tags": ["React", "JSX",  "API"],
-      "image": "../Thumbnails/happy_thoughts_thumbnail.jpg"
+      "image": "../Thumbnails/happy_thoughts_thumbnail2.jpg"
     },
+    
+    {
+      "title": "todo app",
+      "title-description": "To-do app",
+      "project-description": "A task management app built with React and Redux, designed to help you efficiently track and organize your tasks.",
+      "repo-name": "project-to-do-app",
+      "netlify-name": "https://lisa-to-do.netlify.app/",
+      "tags": ["React", "Redux", "Styled components"],
+      "image": "../Thumbnails/to_do_thumbnail2.jpg"
+    },
+
     {
       "title": "quiz",
-      "title-description": "A movie quote quiz",
-      "project-description": "A multiple-choice quiz built with Redux",
+      "title-description": "Movie Quiz",
+      "project-description": "A dynamic multiple-choice movie quote quiz built with Redux to test your film knowledge while ensuring a seamless user experience.",
       "repo-name": "project-redux-quiz",
       "netlify-name": "https://hippos-movie-quote-quiz.netlify.app/quiz",
       "tags": ["Redux", "Mob-programming"],
-      "image": "../Thumbnails/quiz_thumbnail.jpg"
+      "image": "../Thumbnails/quiz_thumbnail2.jpg"
     }
 ]
   

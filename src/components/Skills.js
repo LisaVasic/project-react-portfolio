@@ -40,7 +40,7 @@ export const Skills = () => {
 export const SkillsOuterWrapper = styled.div`
     background-color: var(--beige);
     width: 100%;
-    height: 70vh;
+    height: auto;
     display: flex;
     justify-content: center;
     align-content: center;
@@ -51,7 +51,7 @@ export const SkillsOuterWrapper = styled.div`
 export const SkillsInnerWrapper = styled.div`  
     max-width: 900px;
     width: 80vw;
-    height: 80%;
+    height: 70%;
     display: flex;
     flex-direction: column;
     justify-content: center;
