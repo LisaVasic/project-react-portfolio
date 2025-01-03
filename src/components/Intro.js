@@ -8,10 +8,10 @@ export const Intro = () => {
         <p> Hi there! I’m a junior frontend developer and graphic designer with a
           strong passion for creative problem-solving. I’m enthusiastic
           about expanding my skill set and am currently aspiring to become
-          a full-stack developer.My background in coordination has honed my
-          ability to manage multiple tasks simultaneously and stay organized under pressure.
-          I am eager to leverage my skills in both frontend development and design while
-          learning new technologies to contribute effectively to dynamic projects.
+          a full-stack developer. My experience in coordination has helped me manage
+          multiple tasks at once and stay organized under pressure. I’m excited to use
+          my skills in frontend development and design, while also learning new technologies
+          to contribute to exciting projects.
         </p>
       </IntroInnerWrapper>
     </IntroOuterWrapper>
