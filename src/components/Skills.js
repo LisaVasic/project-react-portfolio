@@ -9,20 +9,19 @@ export const Skills = () => {
         <SkillsContainer>
           <SkillList>
             <h7>CODE</h7>
+            <p>JavaScript</p>
+            <p>TypeScript</p>
+            <p>React</p>
+            <p>Redux</p>
+            <p>Next.js</p>
             <p>HTML</p>
             <p>CSS</p>
-            <p>JavaScript</p>
-            <p>React</p>
-            <p>Styled Components</p>
-            <p>GitHub</p>
           </SkillList>
           <SkillList>
             <h7>TOOLBOX</h7>
+            <p>Adobe Suite</p>
             <p>Figma</p>
-            <p>Slack</p>
-            <p>Adobe Photoshop</p>
-            <p>Adobe Illustrator</p>
-            <p>Adobe InDesign</p>
+            <p>Canva</p>
           </SkillList>
           <SkillList className="More">
             <h7>MORE</h7>
