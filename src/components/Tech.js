@@ -6,9 +6,9 @@ export const Tech = () => {
     <TechOuterWrapper>
       <TechInnerWrapper>
         <h5>TECH</h5>
-        <p>HTML, CSS, Flexbox, <span>JavaScript</span>, ES6, JSX,
+        <p>HTML, CSS, Flexbox, Tailwind <span>JavaScript</span>, TypeScript, 
           <span> React, React Hooks, Redux, </span>
-        Node.js, Mongo DB, Web Accessibly, API:s, mob-programming, pair-programming, Github.
+        Next.js, Node.js, MongoDB, Prisma, SQL, Git, Web Accessibly, API:s, mob-programming, pair-programming.
         </p>
       </TechInnerWrapper>
     </TechOuterWrapper>
