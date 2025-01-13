@@ -8,7 +8,7 @@ export const Tech = () => {
         <h5>TECH</h5>
         <p>HTML, CSS, Flexbox, Tailwind <span>JavaScript</span>, TypeScript,
           <span> React, React Hooks, Redux, </span>
-        Next.js, Node.js, MongoDB, Prisma, SQL, Git, Web Accessibly, 
+        Next.js, Node.js, MongoDB, Prisma, SQL, Git, Web Accessibly,
         API:s, mob-programming, pair-programming.
         </p>
       </TechInnerWrapper>
